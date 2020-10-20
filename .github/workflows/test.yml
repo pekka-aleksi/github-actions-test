@@ -1,5 +1,5 @@
-name: Test Action # ok
-on: push # ok
+name: Test Action
+on: push
 runs-on: ubuntu-latest
 
 jobs:
