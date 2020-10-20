@@ -1,0 +1,12 @@
+name: Test Action # ok
+on: push # ok
+
+
+jobs:
+  my_first_job:
+    steps:
+      - name: Display the path
+        run: |
+          import os
+          print(os.environ['PATH'])
+        shell: python
