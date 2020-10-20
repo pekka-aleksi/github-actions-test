@@ -1,6 +1,6 @@
 name: Test Action # ok
 on: push # ok
-
+runs-on: ubuntu-latest
 
 jobs:
   my_first_job:
